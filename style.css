@@ -62,19 +62,21 @@ nav a:hover{
 }
 
 .boton{
-    margin-top:35px;
-    background:#b84dff;
-    color:white;
-    padding:16px 35px;
+    display:inline-block;
+    padding:15px 35px;
     border-radius:40px;
+    background:#b14cff;
+    color:white;
     text-decoration:none;
-    font-weight:bold;
-    transition:.3s;
+    font-weight:600;
+    transition:0.3s ease;
 }
 
 .boton:hover{
     transform:scale(1.08);
-    box-shadow:0 0 30px #d17bff;
+    background:#c86cff;
+    box-shadow:0 0 25px rgba(177,76,255,.6);
+}
 }
 
 section{
@@ -141,4 +143,26 @@ form textarea:focus{
 
 form button{
     margin-top:10px;
+}
+.logo{
+    transition:0.4s;
+}
+
+.logo:hover{
+    transform:rotate(-5deg) scale(1.05);
+}
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+nav a{
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#d78cff;
 }
