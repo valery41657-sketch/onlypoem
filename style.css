@@ -28,17 +28,6 @@ header{
     font-weight:bold;
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:25px;
-    transition:.3s;
-}
-
-nav a:hover{
-    color:#ff9df5;
-}
-
 .hero{
     min-height:100vh;
     display:flex;
